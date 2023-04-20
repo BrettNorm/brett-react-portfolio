@@ -1,11 +1,9 @@
 # React Portfolio Website using TailwindCSS
 
 
-Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Run:
+To Run:
 
 ### `npm start`
 
