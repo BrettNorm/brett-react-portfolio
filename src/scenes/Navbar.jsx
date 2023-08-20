@@ -36,13 +36,14 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
+                        
                         <Link
-                            page="Skills"
+                            page="Projects"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
                         <Link
-                            page="Projects"
+                            page="Skills"
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
@@ -51,6 +52,16 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
+                        <div>
+                            <a
+                                target='_blank'
+                                rel='noreferrer'
+                                className='text-md text-primary  hover:text-yellow transition duration-500'
+                                href='OfficialResume.pdf'
+                            >
+                                Resume
+                            </a>
+                        </div>
                     </div>
                 ) : (
                 <button className="rounded-full bg-red p-2" onClick={() => setIsMenuToggled(!isMenuToggled)}>
@@ -75,12 +86,13 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                         setSelectedPage={setSelectedPage}
                     />
                     <Link
-                        page="Skills"
+                        page="Projects"
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}
                     />
+                    
                     <Link
-                        page="Projects"
+                        page="Skills"
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}
                     />
@@ -89,6 +101,16 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}
                     />
+                    <div>
+                            <a
+                                target='_blank'
+                                rel='noreferrer'
+                                className='text-md text-primary  hover:text-yellow transition duration-500'
+                                href='OfficialResume.pdf'
+                            >
+                                Resume
+                            </a>
+                        </div>
                     </div>
                 </div>
             )}                

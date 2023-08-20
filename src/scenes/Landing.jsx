@@ -47,11 +47,15 @@ const Landing = ({setSelectedPage}) => {
               className="mx-2 xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1] pl-7"
             >
-              Bax
+             Bax
             </span>
           </p>
+          <p className ="mt-12 mb-4 text-sm text-center md:text-start" >
+                B.S. Computer Science - University of Missouri - St. Louis
+                January 2020 - May 2022, 3.63 GPA
+          </p>
 
-          <p className="mt-12 mb-10 text-sm text-center md:text-start">
+          <p className="mt-2 mb-10 text-sm text-center md:text-start">
             I'm a natural problem solver who's always eager to learn more. 
             I get excited about finding new ways to optimize and innovate, and enjoy diving into 
             technical documentation to improve my code. Plus, there's nothing better than working 
