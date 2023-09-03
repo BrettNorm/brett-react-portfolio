@@ -16,7 +16,7 @@ const Landing = ({setSelectedPage}) => {
                className="" >
                <img
                alt="Headshot"
-               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[500px]"
+               className="hover:filter hover:grayscale transition duration-500 z-10 w-full max-w-[400px] md:max-w-[500px]"
                src="assets/Headshot.jpeg" />
             </div>
          ) : (
@@ -50,17 +50,19 @@ const Landing = ({setSelectedPage}) => {
              Bax
             </span>
           </p>
-          <p className ="mt-12 mb-4 text-sm text-center md:text-start" >
-                B.S. Computer Science - University of Missouri - St. Louis
-                January 2020 - May 2022, 3.63 GPA
-          </p>
+          <p class="mt-12 mb-4 text-sm text-center md:text-start">
+  B.S. Computer Science - University of Missouri - St. Louis
+  January 2020 - May 2022, 3.63 GPA
+</p>
 
-          <p className="mt-2 mb-10 text-sm text-center md:text-start">
-            I'm a natural problem solver who's always eager to learn more. 
-            I get excited about finding new ways to optimize and innovate, and enjoy diving into 
-            technical documentation to improve my code. Plus, there's nothing better than working 
-            with a team to bring a project to life.
-          </p>
+<ul class="list-disc ml-8 mt-2 mb-10 text-sm text-center md:text-start">
+  <li>Languages: C, C++, Java, Python, CSS, HTML, SQL, JavaScript, Swift</li>
+  <li>Web Dev: React.js, CSS, TailwindCSS, NextJS, HTML, SQL; </li>
+  <li>iOS: UIKit, SwiftUI;</li>
+  <li>ML: Python</li>
+</ul>
+
+
         </motion.div>
 
         {/* CALL TO ACTIONS */}
