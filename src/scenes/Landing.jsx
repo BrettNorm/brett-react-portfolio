@@ -57,8 +57,8 @@ const Landing = ({setSelectedPage}) => {
 
 <ul class="list-disc ml-8 mt-2 mb-10 text-sm text-center md:text-start">
   <li>Languages: C, C++, Java, Python, CSS, HTML, SQL, JavaScript, Swift</li>
-  <li>Web Dev: React.js, CSS, TailwindCSS, NextJS, HTML, SQL; </li>
-  <li>iOS: UIKit, SwiftUI;</li>
+  <li>Web Dev: React.js, CSS, TailwindCSS, NextJS, HTML, SQL </li>
+  <li>iOS: UIKit, SwiftUI</li>
   <li>ML: Python</li>
 </ul>
 
